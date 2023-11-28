@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, .title_img {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+    background-color: rgb(209, 110, 206);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.login_reg{
+    color:#fff
+}
+h3 {
+    font-weight: bold;
+    color:rgb(26, 20, 154);
+}
+.exit {
+    color:rgb(15, 215, 88);
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.category {
+    margin-bottom: 30px;
+    max-width: 350px;
+}
+
+.category_img {
+    width: 350px;
+    height: 300px;
+}
+.title_img{
+    margin-bottom: 20px;
+}
+.login,.reg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Tahoma, sans-serif;
+}
+
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.login_form, .reg_form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.category_text{
+    color:gray;
+    font-weight: normal;
+}
+.duration, .cost {
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    background-color: #fff;
+    border: 1px solid rgb(131, 8, 108);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.more_detail:hover {
+    background-color: #a10687;
+    color: #fff;
+}
+.sign_up:hover {
+    background-color: #173fc2;
+    color:#fff;
+}
+
+span {
+    color:#f50ace;
+}
